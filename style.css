@@ -257,6 +257,27 @@ body{
     .grid-wrap {
         grid-template-columns: repeat(1,1fr);
     }
+    .result{
+        border-top-right-radius: 0rem;
+        border-top-left-radius: 0rem;
+    }
+    .container{
+        width: 100%;
+    }
+    .bg-summary{
+        height: 90vh;
+    }
+    .wrapper{
+        display: block;
+    }
+    .result-info p{
+        max-width: 340px;
+    }
+    .attribution{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 .attribution{
