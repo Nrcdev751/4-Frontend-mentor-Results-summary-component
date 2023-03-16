@@ -264,9 +264,7 @@ body{
     .container{
         width: 100%;
     }
-    .bg-summary{
-        height: 90vh;
-    }
+
     .wrapper{
         display: block;
     }
@@ -277,6 +275,9 @@ body{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+    .result-title{
+        margin-top: 2rem;
     }
 }
 
